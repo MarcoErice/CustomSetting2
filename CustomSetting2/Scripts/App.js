@@ -36,7 +36,7 @@ jQuery.noConflict();
     if (pictureShow == "true") 
         $("#myBoolean").html('<img src="../Images/Angry.jpg" />');
     
-    else  $("#myBoolean").html("display", "none");
+    else $("#myBoolean").html({ "display": "none"});
     
 
 
