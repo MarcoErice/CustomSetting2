@@ -33,12 +33,11 @@ jQuery.noConflict();
 
 
     
-    if (pictureShow == true) {
-        $("#myBoolean").prepend('<img src="../Images/Angry.jpg" />');
-    };
-    if (pictureShow == false) {
-        $("#myBoolean").html("display", "none");
-    };
+    if (pictureShow == "true") 
+        $("#myBoolean").html('<img src="../Images/Angry.jpg" />');
+    
+    else  $("#myBoolean").html("display", "none");
+    
 
 
 })(jQuery);
